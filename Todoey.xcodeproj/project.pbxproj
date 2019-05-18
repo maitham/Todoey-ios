@@ -56,7 +56,8 @@
 		283CBDF3228D7443002E0642 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28A3310F228B6C360095CCFA /* Info.plist */,
+				28A3310A228B6C360095CCFA /* Assets.xcassets */,
+				28A3310C228B6C360095CCFA /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -73,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				28A33102228B6C340095CCFA /* Todoey */,
+				28A3310F228B6C360095CCFA /* Info.plist */,
 				28A33101228B6C340095CCFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,8 +95,6 @@
 				283CBDF3228D7443002E0642 /* Supporting Files */,
 				283CBDF2228D7433002E0642 /* Views */,
 				283CBDF1228D7429002E0642 /* Controllers */,
-				28A3310A228B6C360095CCFA /* Assets.xcassets */,
-				28A3310C228B6C360095CCFA /* LaunchScreen.storyboard */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N477PC6Q97;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N477PC6Q97;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
